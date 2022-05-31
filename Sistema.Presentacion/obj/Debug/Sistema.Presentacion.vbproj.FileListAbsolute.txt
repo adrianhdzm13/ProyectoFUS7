@@ -1,0 +1,141 @@
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Presentacion.exe.config
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Presentacion.exe
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Presentacion.pdb
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Presentacion.xml
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Entidades.dll
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Negocio.dll
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Datos.dll
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Entidades.pdb
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Entidades.xml
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Negocio.pdb
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Negocio.xml
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Datos.pdb
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Datos.xml
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.vbproj.AssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.vbproj.SuggestedBindingRedirects.cache
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmPrincipal.resources
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.Resources.resources
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.vbproj.GenerateResource.cache
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.vbproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.vbproj.CopyComplete
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.exe
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.xml
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.pdb
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmCategoria.resources
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmArticulo.resources
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmRol.resources
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmUsuario.resources
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmLogin.resources
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmProveedor.resources
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmCliente.resources
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmIngreso.resources
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmProveedor_Ingreso.resources
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.vbproj.AssemblyReference.cache
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.vbproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmArticulo.resources
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmCategoria.resources
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmCliente.resources
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmIngreso.resources
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmLogin.resources
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmPrincipal.resources
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmProveedor.resources
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmProveedor_Ingreso.resources
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmRol.resources
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmUsuario.resources
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.vbproj.GenerateResource.cache
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.exe
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.xml
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.pdb
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Presentacion.exe.config
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Presentacion.exe
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Presentacion.pdb
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Presentacion.xml
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Entidades.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Negocio.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Datos.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Entidades.pdb
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Entidades.xml
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Negocio.pdb
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Negocio.xml
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Datos.pdb
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Datos.xml
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.Resources.resources
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.vbproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.vbproj.CopyComplete
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmVenta.resources
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmCliente_Venta.resources
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.exe.config
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmReporteArticulos.resources
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\EnvDTE.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\stdole.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\EnvDTE80.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\VSLangProj.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\VSLangProj80.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Microsoft.MSXML.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\VSLangProj2.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\es\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\es\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\bin\Debug\es\Microsoft.VisualStudio.GraphModel.resources.dll
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmReporteComprobanteVenta.resources
+C:\Users\user\Desktop\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmConsultaVentas.resources

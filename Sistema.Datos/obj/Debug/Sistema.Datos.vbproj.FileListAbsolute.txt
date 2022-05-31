@@ -1,0 +1,28 @@
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Datos\bin\Debug\Sistema.Datos.dll
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Datos\bin\Debug\Sistema.Datos.pdb
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Datos\bin\Debug\Sistema.Datos.xml
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Datos\bin\Debug\Sistema.Entidades.dll
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Datos\bin\Debug\Sistema.Entidades.pdb
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Datos\bin\Debug\Sistema.Entidades.xml
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.vbproj.AssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.Resources.resources
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.vbproj.GenerateResource.cache
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.vbproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.vbproj.CopyComplete
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.dll
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.xml
+C:\Users\user\Documents\Visual Studio 2022\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.pdb
+C:\Users\user\Desktop\Sistema\Sistema.Datos\bin\Debug\Sistema.Datos.dll
+C:\Users\user\Desktop\Sistema\Sistema.Datos\bin\Debug\Sistema.Datos.pdb
+C:\Users\user\Desktop\Sistema\Sistema.Datos\bin\Debug\Sistema.Datos.xml
+C:\Users\user\Desktop\Sistema\Sistema.Datos\bin\Debug\Sistema.Entidades.dll
+C:\Users\user\Desktop\Sistema\Sistema.Datos\bin\Debug\Sistema.Entidades.pdb
+C:\Users\user\Desktop\Sistema\Sistema.Datos\bin\Debug\Sistema.Entidades.xml
+C:\Users\user\Desktop\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.vbproj.AssemblyReference.cache
+C:\Users\user\Desktop\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.Resources.resources
+C:\Users\user\Desktop\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.vbproj.GenerateResource.cache
+C:\Users\user\Desktop\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.vbproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.vbproj.CopyComplete
+C:\Users\user\Desktop\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.dll
+C:\Users\user\Desktop\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.xml
+C:\Users\user\Desktop\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.pdb
