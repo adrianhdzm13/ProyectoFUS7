@@ -25,12 +25,18 @@ Partial Class FrmCategoria
         Me.components = New System.ComponentModel.Container()
         Me.TabGeneral = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.BtnDesactivar = New System.Windows.Forms.Button()
+        Me.BtnActivar = New System.Windows.Forms.Button()
+        Me.BtnEliminar = New System.Windows.Forms.Button()
+        Me.ChkSeleccionar = New System.Windows.Forms.CheckBox()
         Me.Lbltotal = New System.Windows.Forms.Label()
         Me.BtnBuscar = New System.Windows.Forms.Button()
         Me.TxtValor = New System.Windows.Forms.TextBox()
         Me.DgvListado = New System.Windows.Forms.DataGridView()
         Me.Seleccionar = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.BtnActualizar = New System.Windows.Forms.Button()
         Me.TxtId = New System.Windows.Forms.TextBox()
         Me.BtnCancelar = New System.Windows.Forms.Button()
@@ -40,10 +46,6 @@ Partial Class FrmCategoria
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Erroricono = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.BtnDesactivar = New System.Windows.Forms.Button()
-        Me.BtnActivar = New System.Windows.Forms.Button()
-        Me.BtnEliminar = New System.Windows.Forms.Button()
-        Me.ChkSeleccionar = New System.Windows.Forms.CheckBox()
         Me.TabGeneral.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         CType(Me.DgvListado, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -81,6 +83,56 @@ Partial Class FrmCategoria
         Me.TabPage1.Text = "Listado"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
+        'BtnDesactivar
+        '
+        Me.BtnDesactivar.BackColor = System.Drawing.Color.Gray
+        Me.BtnDesactivar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnDesactivar.ForeColor = System.Drawing.Color.White
+        Me.BtnDesactivar.Location = New System.Drawing.Point(427, 396)
+        Me.BtnDesactivar.Margin = New System.Windows.Forms.Padding(2)
+        Me.BtnDesactivar.Name = "BtnDesactivar"
+        Me.BtnDesactivar.Size = New System.Drawing.Size(120, 30)
+        Me.BtnDesactivar.TabIndex = 11
+        Me.BtnDesactivar.Text = "Desactivar"
+        Me.BtnDesactivar.UseVisualStyleBackColor = False
+        '
+        'BtnActivar
+        '
+        Me.BtnActivar.BackColor = System.Drawing.Color.Lime
+        Me.BtnActivar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnActivar.ForeColor = System.Drawing.Color.White
+        Me.BtnActivar.Location = New System.Drawing.Point(271, 396)
+        Me.BtnActivar.Margin = New System.Windows.Forms.Padding(2)
+        Me.BtnActivar.Name = "BtnActivar"
+        Me.BtnActivar.Size = New System.Drawing.Size(126, 30)
+        Me.BtnActivar.TabIndex = 10
+        Me.BtnActivar.Text = "Activar"
+        Me.BtnActivar.UseVisualStyleBackColor = False
+        '
+        'BtnEliminar
+        '
+        Me.BtnEliminar.BackColor = System.Drawing.Color.Red
+        Me.BtnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnEliminar.ForeColor = System.Drawing.Color.White
+        Me.BtnEliminar.Location = New System.Drawing.Point(131, 396)
+        Me.BtnEliminar.Margin = New System.Windows.Forms.Padding(2)
+        Me.BtnEliminar.Name = "BtnEliminar"
+        Me.BtnEliminar.Size = New System.Drawing.Size(121, 30)
+        Me.BtnEliminar.TabIndex = 9
+        Me.BtnEliminar.Text = "Eliminar"
+        Me.BtnEliminar.UseVisualStyleBackColor = False
+        '
+        'ChkSeleccionar
+        '
+        Me.ChkSeleccionar.AutoSize = True
+        Me.ChkSeleccionar.Location = New System.Drawing.Point(20, 402)
+        Me.ChkSeleccionar.Margin = New System.Windows.Forms.Padding(2)
+        Me.ChkSeleccionar.Name = "ChkSeleccionar"
+        Me.ChkSeleccionar.Size = New System.Drawing.Size(82, 17)
+        Me.ChkSeleccionar.TabIndex = 8
+        Me.ChkSeleccionar.Text = "Seleccionar"
+        Me.ChkSeleccionar.UseVisualStyleBackColor = True
+        '
         'Lbltotal
         '
         Me.Lbltotal.AutoSize = True
@@ -93,13 +145,16 @@ Partial Class FrmCategoria
         '
         'BtnBuscar
         '
-        Me.BtnBuscar.Location = New System.Drawing.Point(567, 26)
+        Me.BtnBuscar.BackColor = System.Drawing.Color.Lime
+        Me.BtnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnBuscar.ForeColor = System.Drawing.Color.White
+        Me.BtnBuscar.Location = New System.Drawing.Point(563, 18)
         Me.BtnBuscar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnBuscar.Name = "BtnBuscar"
-        Me.BtnBuscar.Size = New System.Drawing.Size(192, 19)
+        Me.BtnBuscar.Size = New System.Drawing.Size(196, 27)
         Me.BtnBuscar.TabIndex = 3
         Me.BtnBuscar.Text = "Buscar"
-        Me.BtnBuscar.UseVisualStyleBackColor = True
+        Me.BtnBuscar.UseVisualStyleBackColor = False
         '
         'TxtValor
         '
@@ -133,6 +188,8 @@ Partial Class FrmCategoria
         '
         'TabPage2
         '
+        Me.TabPage2.Controls.Add(Me.Label3)
+        Me.TabPage2.Controls.Add(Me.Label4)
         Me.TabPage2.Controls.Add(Me.BtnActualizar)
         Me.TabPage2.Controls.Add(Me.TxtId)
         Me.TabPage2.Controls.Add(Me.BtnCancelar)
@@ -150,15 +207,34 @@ Partial Class FrmCategoria
         Me.TabPage2.Text = "Mantenimiento"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
+        'Label3
+        '
+        Me.Label3.BackColor = System.Drawing.Color.Blue
+        Me.Label3.Location = New System.Drawing.Point(34, 113)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(155, 2)
+        Me.Label3.TabIndex = 32
+        '
+        'Label4
+        '
+        Me.Label4.BackColor = System.Drawing.Color.Blue
+        Me.Label4.Location = New System.Drawing.Point(34, 59)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(155, 2)
+        Me.Label4.TabIndex = 31
+        '
         'BtnActualizar
         '
-        Me.BtnActualizar.Location = New System.Drawing.Point(132, 194)
+        Me.BtnActualizar.BackColor = System.Drawing.Color.Lime
+        Me.BtnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnActualizar.ForeColor = System.Drawing.Color.White
+        Me.BtnActualizar.Location = New System.Drawing.Point(221, 175)
         Me.BtnActualizar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnActualizar.Name = "BtnActualizar"
-        Me.BtnActualizar.Size = New System.Drawing.Size(132, 19)
+        Me.BtnActualizar.Size = New System.Drawing.Size(152, 38)
         Me.BtnActualizar.TabIndex = 7
         Me.BtnActualizar.Text = "Actualizar"
-        Me.BtnActualizar.UseVisualStyleBackColor = True
+        Me.BtnActualizar.UseVisualStyleBackColor = False
         '
         'TxtId
         '
@@ -171,27 +247,33 @@ Partial Class FrmCategoria
         '
         'BtnCancelar
         '
-        Me.BtnCancelar.Location = New System.Drawing.Point(277, 194)
+        Me.BtnCancelar.BackColor = System.Drawing.Color.Red
+        Me.BtnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnCancelar.ForeColor = System.Drawing.Color.White
+        Me.BtnCancelar.Location = New System.Drawing.Point(398, 175)
         Me.BtnCancelar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnCancelar.Name = "BtnCancelar"
-        Me.BtnCancelar.Size = New System.Drawing.Size(128, 19)
+        Me.BtnCancelar.Size = New System.Drawing.Size(161, 38)
         Me.BtnCancelar.TabIndex = 5
         Me.BtnCancelar.Text = "Cancelar"
-        Me.BtnCancelar.UseVisualStyleBackColor = True
+        Me.BtnCancelar.UseVisualStyleBackColor = False
         '
         'BtnInsertar
         '
-        Me.BtnInsertar.Location = New System.Drawing.Point(132, 194)
+        Me.BtnInsertar.BackColor = System.Drawing.Color.Lime
+        Me.BtnInsertar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnInsertar.ForeColor = System.Drawing.Color.White
+        Me.BtnInsertar.Location = New System.Drawing.Point(47, 175)
         Me.BtnInsertar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnInsertar.Name = "BtnInsertar"
-        Me.BtnInsertar.Size = New System.Drawing.Size(132, 19)
+        Me.BtnInsertar.Size = New System.Drawing.Size(152, 38)
         Me.BtnInsertar.TabIndex = 4
         Me.BtnInsertar.Text = "Insertar"
-        Me.BtnInsertar.UseVisualStyleBackColor = True
+        Me.BtnInsertar.UseVisualStyleBackColor = False
         '
         'TxtDescripcion
         '
-        Me.TxtDescripcion.Location = New System.Drawing.Point(132, 100)
+        Me.TxtDescripcion.Location = New System.Drawing.Point(209, 97)
         Me.TxtDescripcion.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtDescripcion.Multiline = True
         Me.TxtDescripcion.Name = "TxtDescripcion"
@@ -200,7 +282,7 @@ Partial Class FrmCategoria
         '
         'TxtNombre
         '
-        Me.TxtNombre.Location = New System.Drawing.Point(132, 46)
+        Me.TxtNombre.Location = New System.Drawing.Point(209, 46)
         Me.TxtNombre.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtNombre.Name = "TxtNombre"
         Me.TxtNombre.Size = New System.Drawing.Size(273, 20)
@@ -229,47 +311,6 @@ Partial Class FrmCategoria
         'Erroricono
         '
         Me.Erroricono.ContainerControl = Me
-        '
-        'BtnDesactivar
-        '
-        Me.BtnDesactivar.Location = New System.Drawing.Point(401, 402)
-        Me.BtnDesactivar.Margin = New System.Windows.Forms.Padding(2)
-        Me.BtnDesactivar.Name = "BtnDesactivar"
-        Me.BtnDesactivar.Size = New System.Drawing.Size(112, 19)
-        Me.BtnDesactivar.TabIndex = 11
-        Me.BtnDesactivar.Text = "Desactivar"
-        Me.BtnDesactivar.UseVisualStyleBackColor = True
-        '
-        'BtnActivar
-        '
-        Me.BtnActivar.Location = New System.Drawing.Point(271, 402)
-        Me.BtnActivar.Margin = New System.Windows.Forms.Padding(2)
-        Me.BtnActivar.Name = "BtnActivar"
-        Me.BtnActivar.Size = New System.Drawing.Size(112, 19)
-        Me.BtnActivar.TabIndex = 10
-        Me.BtnActivar.Text = "Activar"
-        Me.BtnActivar.UseVisualStyleBackColor = True
-        '
-        'BtnEliminar
-        '
-        Me.BtnEliminar.Location = New System.Drawing.Point(136, 402)
-        Me.BtnEliminar.Margin = New System.Windows.Forms.Padding(2)
-        Me.BtnEliminar.Name = "BtnEliminar"
-        Me.BtnEliminar.Size = New System.Drawing.Size(112, 19)
-        Me.BtnEliminar.TabIndex = 9
-        Me.BtnEliminar.Text = "Eliminar"
-        Me.BtnEliminar.UseVisualStyleBackColor = True
-        '
-        'ChkSeleccionar
-        '
-        Me.ChkSeleccionar.AutoSize = True
-        Me.ChkSeleccionar.Location = New System.Drawing.Point(20, 402)
-        Me.ChkSeleccionar.Margin = New System.Windows.Forms.Padding(2)
-        Me.ChkSeleccionar.Name = "ChkSeleccionar"
-        Me.ChkSeleccionar.Size = New System.Drawing.Size(82, 17)
-        Me.ChkSeleccionar.TabIndex = 8
-        Me.ChkSeleccionar.Text = "Seleccionar"
-        Me.ChkSeleccionar.UseVisualStyleBackColor = True
         '
         'FrmCategoria
         '
@@ -312,4 +353,6 @@ Partial Class FrmCategoria
     Friend WithEvents BtnActivar As Button
     Friend WithEvents BtnEliminar As Button
     Friend WithEvents ChkSeleccionar As CheckBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
 End Class

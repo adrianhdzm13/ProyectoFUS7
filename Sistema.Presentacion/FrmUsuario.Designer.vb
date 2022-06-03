@@ -58,12 +58,22 @@ Partial Class FrmUsuario
         Me.Lbltotal = New System.Windows.Forms.Label()
         Me.DgvListado = New System.Windows.Forms.DataGridView()
         Me.Seleccionar = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         CType(Me.ErrorIcono, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         Me.TabGeneral.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         CType(Me.DgvListado, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'ErrorIcono
@@ -72,9 +82,11 @@ Partial Class FrmUsuario
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Panel1)
+        Me.GroupBox1.Controls.Add(Me.Label16)
+        Me.GroupBox1.Controls.Add(Me.Label17)
         Me.GroupBox1.Controls.Add(Me.TxtClave)
         Me.GroupBox1.Controls.Add(Me.TxtEmail)
-        Me.GroupBox1.Controls.Add(Me.Label9)
         Me.GroupBox1.Controls.Add(Me.Label8)
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Location = New System.Drawing.Point(549, 63)
@@ -88,7 +100,7 @@ Partial Class FrmUsuario
         '
         'TxtClave
         '
-        Me.TxtClave.Location = New System.Drawing.Point(130, 89)
+        Me.TxtClave.Location = New System.Drawing.Point(145, 90)
         Me.TxtClave.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtClave.Name = "TxtClave"
         Me.TxtClave.Size = New System.Drawing.Size(212, 20)
@@ -96,7 +108,7 @@ Partial Class FrmUsuario
         '
         'TxtEmail
         '
-        Me.TxtEmail.Location = New System.Drawing.Point(130, 46)
+        Me.TxtEmail.Location = New System.Drawing.Point(145, 47)
         Me.TxtEmail.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtEmail.Name = "TxtEmail"
         Me.TxtEmail.Size = New System.Drawing.Size(212, 20)
@@ -105,13 +117,13 @@ Partial Class FrmUsuario
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(26, 167)
+        Me.Label9.Location = New System.Drawing.Point(24, 23)
         Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(359, 26)
+        Me.Label9.Size = New System.Drawing.Size(359, 52)
         Me.Label9.TabIndex = 2
-        Me.Label9.Text = "A: Para insertar un usuario la clave es obligatoria." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Para actualizar deje en bla" &
-    "nco el campo clave y la clave no se actualizará." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label9.Text = "NOTA" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "A: Para insertar un usuario la clave es obligatoria." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Para actualizar dej" &
+    "e en blanco el campo clave y la clave no se actualizará." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'Label8
         '
@@ -135,20 +147,20 @@ Partial Class FrmUsuario
         '
         'TxtTelefono
         '
-        Me.TxtTelefono.Location = New System.Drawing.Point(166, 255)
+        Me.TxtTelefono.Location = New System.Drawing.Point(195, 260)
         Me.TxtTelefono.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtTelefono.Name = "TxtTelefono"
-        Me.TxtTelefono.Size = New System.Drawing.Size(146, 20)
+        Me.TxtTelefono.Size = New System.Drawing.Size(273, 20)
         Me.TxtTelefono.TabIndex = 22
         '
         'CboTipoDocumento
         '
         Me.CboTipoDocumento.FormattingEnabled = True
         Me.CboTipoDocumento.Items.AddRange(New Object() {"CEDULA", "PASAPORTE", "CARNET", "RUC", "DNI"})
-        Me.CboTipoDocumento.Location = New System.Drawing.Point(166, 133)
+        Me.CboTipoDocumento.Location = New System.Drawing.Point(195, 133)
         Me.CboTipoDocumento.Margin = New System.Windows.Forms.Padding(2)
         Me.CboTipoDocumento.Name = "CboTipoDocumento"
-        Me.CboTipoDocumento.Size = New System.Drawing.Size(188, 21)
+        Me.CboTipoDocumento.Size = New System.Drawing.Size(273, 21)
         Me.CboTipoDocumento.TabIndex = 21
         Me.CboTipoDocumento.Text = "DNI"
         '
@@ -165,7 +177,7 @@ Partial Class FrmUsuario
         'CboRol
         '
         Me.CboRol.FormattingEnabled = True
-        Me.CboRol.Location = New System.Drawing.Point(166, 63)
+        Me.CboRol.Location = New System.Drawing.Point(195, 63)
         Me.CboRol.Margin = New System.Windows.Forms.Padding(2)
         Me.CboRol.Name = "CboRol"
         Me.CboRol.Size = New System.Drawing.Size(273, 21)
@@ -183,13 +195,16 @@ Partial Class FrmUsuario
         '
         'BtnActualizar
         '
-        Me.BtnActualizar.Location = New System.Drawing.Point(135, 353)
+        Me.BtnActualizar.BackColor = System.Drawing.Color.Lime
+        Me.BtnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnActualizar.ForeColor = System.Drawing.Color.White
+        Me.BtnActualizar.Location = New System.Drawing.Point(130, 345)
         Me.BtnActualizar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnActualizar.Name = "BtnActualizar"
-        Me.BtnActualizar.Size = New System.Drawing.Size(132, 19)
+        Me.BtnActualizar.Size = New System.Drawing.Size(137, 27)
         Me.BtnActualizar.TabIndex = 7
         Me.BtnActualizar.Text = "Actualizar"
-        Me.BtnActualizar.UseVisualStyleBackColor = True
+        Me.BtnActualizar.UseVisualStyleBackColor = False
         '
         'TxtId
         '
@@ -202,13 +217,16 @@ Partial Class FrmUsuario
         '
         'BtnCancelar
         '
-        Me.BtnCancelar.Location = New System.Drawing.Point(280, 353)
+        Me.BtnCancelar.BackColor = System.Drawing.Color.Red
+        Me.BtnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnCancelar.ForeColor = System.Drawing.Color.White
+        Me.BtnCancelar.Location = New System.Drawing.Point(280, 345)
         Me.BtnCancelar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnCancelar.Name = "BtnCancelar"
-        Me.BtnCancelar.Size = New System.Drawing.Size(128, 19)
+        Me.BtnCancelar.Size = New System.Drawing.Size(137, 27)
         Me.BtnCancelar.TabIndex = 5
         Me.BtnCancelar.Text = "Cancelar"
-        Me.BtnCancelar.UseVisualStyleBackColor = True
+        Me.BtnCancelar.UseVisualStyleBackColor = False
         '
         'BtnInsertar
         '
@@ -222,7 +240,7 @@ Partial Class FrmUsuario
         '
         'TxtNombre
         '
-        Me.TxtNombre.Location = New System.Drawing.Point(166, 97)
+        Me.TxtNombre.Location = New System.Drawing.Point(195, 97)
         Me.TxtNombre.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtNombre.Name = "TxtNombre"
         Me.TxtNombre.Size = New System.Drawing.Size(273, 20)
@@ -250,6 +268,12 @@ Partial Class FrmUsuario
         '
         'TabPage2
         '
+        Me.TabPage2.Controls.Add(Me.Label15)
+        Me.TabPage2.Controls.Add(Me.Label14)
+        Me.TabPage2.Controls.Add(Me.Label13)
+        Me.TabPage2.Controls.Add(Me.Label12)
+        Me.TabPage2.Controls.Add(Me.Label11)
+        Me.TabPage2.Controls.Add(Me.Label10)
         Me.TabPage2.Controls.Add(Me.GroupBox1)
         Me.TabPage2.Controls.Add(Me.TxtTelefono)
         Me.TabPage2.Controls.Add(Me.CboTipoDocumento)
@@ -298,7 +322,7 @@ Partial Class FrmUsuario
         '
         'TxtDireccion
         '
-        Me.TxtDireccion.Location = New System.Drawing.Point(166, 218)
+        Me.TxtDireccion.Location = New System.Drawing.Point(195, 218)
         Me.TxtDireccion.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtDireccion.Name = "TxtDireccion"
         Me.TxtDireccion.Size = New System.Drawing.Size(273, 20)
@@ -306,10 +330,10 @@ Partial Class FrmUsuario
         '
         'TxtNumDocumento
         '
-        Me.TxtNumDocumento.Location = New System.Drawing.Point(166, 178)
+        Me.TxtNumDocumento.Location = New System.Drawing.Point(195, 178)
         Me.TxtNumDocumento.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtNumDocumento.Name = "TxtNumDocumento"
-        Me.TxtNumDocumento.Size = New System.Drawing.Size(146, 20)
+        Me.TxtNumDocumento.Size = New System.Drawing.Size(273, 20)
         Me.TxtNumDocumento.TabIndex = 16
         '
         'TabGeneral
@@ -344,33 +368,42 @@ Partial Class FrmUsuario
         '
         'BtnDesactivar
         '
-        Me.BtnDesactivar.Location = New System.Drawing.Point(406, 408)
+        Me.BtnDesactivar.BackColor = System.Drawing.Color.Gray
+        Me.BtnDesactivar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnDesactivar.ForeColor = System.Drawing.Color.White
+        Me.BtnDesactivar.Location = New System.Drawing.Point(422, 399)
         Me.BtnDesactivar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnDesactivar.Name = "BtnDesactivar"
-        Me.BtnDesactivar.Size = New System.Drawing.Size(112, 19)
+        Me.BtnDesactivar.Size = New System.Drawing.Size(125, 27)
         Me.BtnDesactivar.TabIndex = 7
         Me.BtnDesactivar.Text = "Desactivar"
-        Me.BtnDesactivar.UseVisualStyleBackColor = True
+        Me.BtnDesactivar.UseVisualStyleBackColor = False
         '
         'BtnActivar
         '
-        Me.BtnActivar.Location = New System.Drawing.Point(276, 408)
+        Me.BtnActivar.BackColor = System.Drawing.Color.Lime
+        Me.BtnActivar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnActivar.ForeColor = System.Drawing.Color.White
+        Me.BtnActivar.Location = New System.Drawing.Point(292, 399)
         Me.BtnActivar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnActivar.Name = "BtnActivar"
-        Me.BtnActivar.Size = New System.Drawing.Size(112, 19)
+        Me.BtnActivar.Size = New System.Drawing.Size(125, 27)
         Me.BtnActivar.TabIndex = 6
         Me.BtnActivar.Text = "Activar"
-        Me.BtnActivar.UseVisualStyleBackColor = True
+        Me.BtnActivar.UseVisualStyleBackColor = False
         '
         'BtnEliminar
         '
-        Me.BtnEliminar.Location = New System.Drawing.Point(141, 408)
+        Me.BtnEliminar.BackColor = System.Drawing.Color.Red
+        Me.BtnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnEliminar.ForeColor = System.Drawing.Color.White
+        Me.BtnEliminar.Location = New System.Drawing.Point(157, 399)
         Me.BtnEliminar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnEliminar.Name = "BtnEliminar"
-        Me.BtnEliminar.Size = New System.Drawing.Size(112, 19)
+        Me.BtnEliminar.Size = New System.Drawing.Size(125, 27)
         Me.BtnEliminar.TabIndex = 5
         Me.BtnEliminar.Text = "Eliminar"
-        Me.BtnEliminar.UseVisualStyleBackColor = True
+        Me.BtnEliminar.UseVisualStyleBackColor = False
         '
         'ChkSeleccionar
         '
@@ -385,17 +418,20 @@ Partial Class FrmUsuario
         '
         'BtnBuscar
         '
-        Me.BtnBuscar.Location = New System.Drawing.Point(567, 26)
+        Me.BtnBuscar.BackColor = System.Drawing.Color.Lime
+        Me.BtnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnBuscar.ForeColor = System.Drawing.Color.White
+        Me.BtnBuscar.Location = New System.Drawing.Point(567, 21)
         Me.BtnBuscar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnBuscar.Name = "BtnBuscar"
-        Me.BtnBuscar.Size = New System.Drawing.Size(192, 19)
+        Me.BtnBuscar.Size = New System.Drawing.Size(192, 24)
         Me.BtnBuscar.TabIndex = 3
         Me.BtnBuscar.Text = "Buscar"
-        Me.BtnBuscar.UseVisualStyleBackColor = True
+        Me.BtnBuscar.UseVisualStyleBackColor = False
         '
         'TxtValor
         '
-        Me.TxtValor.Location = New System.Drawing.Point(7, 28)
+        Me.TxtValor.Location = New System.Drawing.Point(7, 24)
         Me.TxtValor.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtValor.Name = "TxtValor"
         Me.TxtValor.Size = New System.Drawing.Size(540, 20)
@@ -433,6 +469,79 @@ Partial Class FrmUsuario
         Me.Seleccionar.Name = "Seleccionar"
         Me.Seleccionar.ReadOnly = True
         '
+        'Label10
+        '
+        Me.Label10.BackColor = System.Drawing.Color.Blue
+        Me.Label10.Location = New System.Drawing.Point(46, 76)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(128, 2)
+        Me.Label10.TabIndex = 32
+        '
+        'Label11
+        '
+        Me.Label11.BackColor = System.Drawing.Color.Blue
+        Me.Label11.Location = New System.Drawing.Point(46, 277)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(128, 2)
+        Me.Label11.TabIndex = 33
+        '
+        'Label12
+        '
+        Me.Label12.BackColor = System.Drawing.Color.Blue
+        Me.Label12.Location = New System.Drawing.Point(46, 231)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(128, 2)
+        Me.Label12.TabIndex = 34
+        '
+        'Label13
+        '
+        Me.Label13.BackColor = System.Drawing.Color.Blue
+        Me.Label13.Location = New System.Drawing.Point(46, 196)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(128, 2)
+        Me.Label13.TabIndex = 35
+        '
+        'Label14
+        '
+        Me.Label14.BackColor = System.Drawing.Color.Blue
+        Me.Label14.Location = New System.Drawing.Point(46, 149)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(128, 2)
+        Me.Label14.TabIndex = 36
+        '
+        'Label15
+        '
+        Me.Label15.BackColor = System.Drawing.Color.Blue
+        Me.Label15.Location = New System.Drawing.Point(46, 110)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(128, 2)
+        Me.Label15.TabIndex = 37
+        '
+        'Label16
+        '
+        Me.Label16.BackColor = System.Drawing.Color.Blue
+        Me.Label16.Location = New System.Drawing.Point(21, 59)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(67, 2)
+        Me.Label16.TabIndex = 38
+        '
+        'Label17
+        '
+        Me.Label17.BackColor = System.Drawing.Color.Blue
+        Me.Label17.Location = New System.Drawing.Point(23, 107)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(66, 2)
+        Me.Label17.TabIndex = 39
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.Silver
+        Me.Panel1.Controls.Add(Me.Label9)
+        Me.Panel1.Location = New System.Drawing.Point(0, 144)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(398, 105)
+        Me.Panel1.TabIndex = 40
+        '
         'FrmUsuario
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -451,6 +560,8 @@ Partial Class FrmUsuario
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
         CType(Me.DgvListado, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -490,4 +601,13 @@ Partial Class FrmUsuario
     Friend WithEvents TxtNombre As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Label16 As Label
+    Friend WithEvents Label17 As Label
 End Class

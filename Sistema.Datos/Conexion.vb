@@ -58,7 +58,7 @@ Public Class Conexion
         Me.Servidor = "proyectofus.cecbqyxgpbsq.us-east-1.rds.amazonaws.com"
         Me.Usuario = "root"
         Me.Clave = "SANmateo*123"
-        Me.conn = New SqlConnection(CrearCadena) 
+        Me.conn = New SqlConnection(CrearCadena)
     End Sub
 
 

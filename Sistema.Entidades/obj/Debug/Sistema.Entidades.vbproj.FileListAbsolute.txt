@@ -18,3 +18,13 @@ C:\Users\user\Desktop\Sistema\Sistema.Entidades\obj\Debug\Sistema.Entidades.vbpr
 C:\Users\user\Desktop\Sistema\Sistema.Entidades\obj\Debug\Sistema.Entidades.dll
 C:\Users\user\Desktop\Sistema\Sistema.Entidades\obj\Debug\Sistema.Entidades.xml
 C:\Users\user\Desktop\Sistema\Sistema.Entidades\obj\Debug\Sistema.Entidades.pdb
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Entidades\bin\Debug\Sistema.Entidades.dll
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Entidades\bin\Debug\Sistema.Entidades.pdb
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Entidades\bin\Debug\Sistema.Entidades.xml
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Entidades\obj\Debug\Sistema.Entidades.vbproj.AssemblyReference.cache
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Entidades\obj\Debug\Sistema.Entidades.Resources.resources
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Entidades\obj\Debug\Sistema.Entidades.vbproj.GenerateResource.cache
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Entidades\obj\Debug\Sistema.Entidades.vbproj.CoreCompileInputs.cache
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Entidades\obj\Debug\Sistema.Entidades.dll
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Entidades\obj\Debug\Sistema.Entidades.xml
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Entidades\obj\Debug\Sistema.Entidades.pdb

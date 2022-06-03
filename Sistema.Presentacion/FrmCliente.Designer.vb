@@ -33,6 +33,12 @@ Partial Class FrmCliente
         Me.DgvListado = New System.Windows.Forms.DataGridView()
         Me.Seleccionar = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.TxtEmail = New System.Windows.Forms.TextBox()
         Me.TxtTelefono = New System.Windows.Forms.TextBox()
         Me.CboTipoDocumento = New System.Windows.Forms.ComboBox()
@@ -87,13 +93,16 @@ Partial Class FrmCliente
         '
         'BtnEliminar
         '
-        Me.BtnEliminar.Location = New System.Drawing.Point(141, 408)
+        Me.BtnEliminar.BackColor = System.Drawing.Color.Red
+        Me.BtnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnEliminar.ForeColor = System.Drawing.Color.LightGray
+        Me.BtnEliminar.Location = New System.Drawing.Point(161, 402)
         Me.BtnEliminar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnEliminar.Name = "BtnEliminar"
-        Me.BtnEliminar.Size = New System.Drawing.Size(112, 19)
+        Me.BtnEliminar.Size = New System.Drawing.Size(132, 30)
         Me.BtnEliminar.TabIndex = 5
         Me.BtnEliminar.Text = "Eliminar"
-        Me.BtnEliminar.UseVisualStyleBackColor = True
+        Me.BtnEliminar.UseVisualStyleBackColor = False
         '
         'ChkSeleccionar
         '
@@ -108,17 +117,20 @@ Partial Class FrmCliente
         '
         'BtnBuscar
         '
-        Me.BtnBuscar.Location = New System.Drawing.Point(567, 26)
+        Me.BtnBuscar.BackColor = System.Drawing.Color.LimeGreen
+        Me.BtnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnBuscar.ForeColor = System.Drawing.Color.White
+        Me.BtnBuscar.Location = New System.Drawing.Point(567, 17)
         Me.BtnBuscar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnBuscar.Name = "BtnBuscar"
-        Me.BtnBuscar.Size = New System.Drawing.Size(192, 19)
-        Me.BtnBuscar.TabIndex = 3
+        Me.BtnBuscar.Size = New System.Drawing.Size(192, 28)
+        Me.BtnBuscar.TabIndex = 27
         Me.BtnBuscar.Text = "Buscar"
-        Me.BtnBuscar.UseVisualStyleBackColor = True
+        Me.BtnBuscar.UseVisualStyleBackColor = False
         '
         'TxtValor
         '
-        Me.TxtValor.Location = New System.Drawing.Point(7, 28)
+        Me.TxtValor.Location = New System.Drawing.Point(6, 22)
         Me.TxtValor.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtValor.Name = "TxtValor"
         Me.TxtValor.Size = New System.Drawing.Size(540, 20)
@@ -158,6 +170,12 @@ Partial Class FrmCliente
         '
         'TabPage2
         '
+        Me.TabPage2.Controls.Add(Me.Label12)
+        Me.TabPage2.Controls.Add(Me.Label11)
+        Me.TabPage2.Controls.Add(Me.Label10)
+        Me.TabPage2.Controls.Add(Me.Label9)
+        Me.TabPage2.Controls.Add(Me.Label8)
+        Me.TabPage2.Controls.Add(Me.Label3)
         Me.TabPage2.Controls.Add(Me.TxtEmail)
         Me.TabPage2.Controls.Add(Me.TxtTelefono)
         Me.TabPage2.Controls.Add(Me.CboTipoDocumento)
@@ -183,30 +201,78 @@ Partial Class FrmCliente
         Me.TabPage2.Text = "Mantenimiento"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
+        'Label12
+        '
+        Me.Label12.BackColor = System.Drawing.Color.Blue
+        Me.Label12.Location = New System.Drawing.Point(52, 240)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(155, 2)
+        Me.Label12.TabIndex = 36
+        '
+        'Label11
+        '
+        Me.Label11.BackColor = System.Drawing.Color.Blue
+        Me.Label11.Location = New System.Drawing.Point(55, 281)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(155, 2)
+        Me.Label11.TabIndex = 35
+        '
+        'Label10
+        '
+        Me.Label10.BackColor = System.Drawing.Color.Blue
+        Me.Label10.Location = New System.Drawing.Point(52, 197)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(155, 2)
+        Me.Label10.TabIndex = 34
+        '
+        'Label9
+        '
+        Me.Label9.BackColor = System.Drawing.Color.Blue
+        Me.Label9.Location = New System.Drawing.Point(52, 162)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(155, 2)
+        Me.Label9.TabIndex = 33
+        '
+        'Label8
+        '
+        Me.Label8.BackColor = System.Drawing.Color.Blue
+        Me.Label8.Location = New System.Drawing.Point(52, 115)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(155, 2)
+        Me.Label8.TabIndex = 32
+        '
+        'Label3
+        '
+        Me.Label3.BackColor = System.Drawing.Color.Blue
+        Me.Label3.Location = New System.Drawing.Point(52, 76)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(155, 2)
+        Me.Label3.TabIndex = 31
+        '
         'TxtEmail
         '
-        Me.TxtEmail.Location = New System.Drawing.Point(173, 268)
+        Me.TxtEmail.Location = New System.Drawing.Point(229, 261)
         Me.TxtEmail.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtEmail.Name = "TxtEmail"
-        Me.TxtEmail.Size = New System.Drawing.Size(212, 20)
+        Me.TxtEmail.Size = New System.Drawing.Size(272, 20)
         Me.TxtEmail.TabIndex = 3
         '
         'TxtTelefono
         '
-        Me.TxtTelefono.Location = New System.Drawing.Point(172, 222)
+        Me.TxtTelefono.Location = New System.Drawing.Point(228, 215)
         Me.TxtTelefono.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtTelefono.Name = "TxtTelefono"
-        Me.TxtTelefono.Size = New System.Drawing.Size(146, 20)
+        Me.TxtTelefono.Size = New System.Drawing.Size(273, 20)
         Me.TxtTelefono.TabIndex = 22
         '
         'CboTipoDocumento
         '
         Me.CboTipoDocumento.FormattingEnabled = True
         Me.CboTipoDocumento.Items.AddRange(New Object() {"CEDULA", "PASAPORTE", "CARNET", "RUC", "DNI"})
-        Me.CboTipoDocumento.Location = New System.Drawing.Point(172, 100)
+        Me.CboTipoDocumento.Location = New System.Drawing.Point(228, 100)
         Me.CboTipoDocumento.Margin = New System.Windows.Forms.Padding(2)
         Me.CboTipoDocumento.Name = "CboTipoDocumento"
-        Me.CboTipoDocumento.Size = New System.Drawing.Size(188, 21)
+        Me.CboTipoDocumento.Size = New System.Drawing.Size(273, 21)
         Me.CboTipoDocumento.TabIndex = 21
         Me.CboTipoDocumento.Text = "DNI"
         '
@@ -252,7 +318,7 @@ Partial Class FrmCliente
         '
         'TxtDireccion
         '
-        Me.TxtDireccion.Location = New System.Drawing.Point(172, 184)
+        Me.TxtDireccion.Location = New System.Drawing.Point(228, 177)
         Me.TxtDireccion.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtDireccion.Name = "TxtDireccion"
         Me.TxtDireccion.Size = New System.Drawing.Size(273, 20)
@@ -260,21 +326,24 @@ Partial Class FrmCliente
         '
         'TxtNumDocumento
         '
-        Me.TxtNumDocumento.Location = New System.Drawing.Point(172, 145)
+        Me.TxtNumDocumento.Location = New System.Drawing.Point(228, 142)
         Me.TxtNumDocumento.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtNumDocumento.Name = "TxtNumDocumento"
-        Me.TxtNumDocumento.Size = New System.Drawing.Size(146, 20)
+        Me.TxtNumDocumento.Size = New System.Drawing.Size(273, 20)
         Me.TxtNumDocumento.TabIndex = 16
         '
         'BtnActualizar
         '
-        Me.BtnActualizar.Location = New System.Drawing.Point(135, 353)
+        Me.BtnActualizar.BackColor = System.Drawing.Color.Lime
+        Me.BtnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnActualizar.ForeColor = System.Drawing.Color.White
+        Me.BtnActualizar.Location = New System.Drawing.Point(216, 353)
         Me.BtnActualizar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnActualizar.Name = "BtnActualizar"
-        Me.BtnActualizar.Size = New System.Drawing.Size(132, 19)
+        Me.BtnActualizar.Size = New System.Drawing.Size(140, 28)
         Me.BtnActualizar.TabIndex = 7
         Me.BtnActualizar.Text = "Actualizar"
-        Me.BtnActualizar.UseVisualStyleBackColor = True
+        Me.BtnActualizar.UseVisualStyleBackColor = False
         '
         'TxtId
         '
@@ -287,27 +356,33 @@ Partial Class FrmCliente
         '
         'BtnCancelar
         '
-        Me.BtnCancelar.Location = New System.Drawing.Point(280, 353)
+        Me.BtnCancelar.BackColor = System.Drawing.Color.Red
+        Me.BtnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnCancelar.ForeColor = System.Drawing.Color.White
+        Me.BtnCancelar.Location = New System.Drawing.Point(386, 353)
         Me.BtnCancelar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnCancelar.Name = "BtnCancelar"
-        Me.BtnCancelar.Size = New System.Drawing.Size(128, 19)
+        Me.BtnCancelar.Size = New System.Drawing.Size(145, 28)
         Me.BtnCancelar.TabIndex = 5
         Me.BtnCancelar.Text = "Cancelar"
-        Me.BtnCancelar.UseVisualStyleBackColor = True
+        Me.BtnCancelar.UseVisualStyleBackColor = False
         '
         'BtnInsertar
         '
-        Me.BtnInsertar.Location = New System.Drawing.Point(135, 353)
+        Me.BtnInsertar.BackColor = System.Drawing.Color.Lime
+        Me.BtnInsertar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnInsertar.ForeColor = System.Drawing.Color.White
+        Me.BtnInsertar.Location = New System.Drawing.Point(42, 353)
         Me.BtnInsertar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnInsertar.Name = "BtnInsertar"
-        Me.BtnInsertar.Size = New System.Drawing.Size(132, 19)
+        Me.BtnInsertar.Size = New System.Drawing.Size(142, 28)
         Me.BtnInsertar.TabIndex = 4
         Me.BtnInsertar.Text = "Insertar"
-        Me.BtnInsertar.UseVisualStyleBackColor = True
+        Me.BtnInsertar.UseVisualStyleBackColor = False
         '
         'TxtNombre
         '
-        Me.TxtNombre.Location = New System.Drawing.Point(172, 63)
+        Me.TxtNombre.Location = New System.Drawing.Point(228, 60)
         Me.TxtNombre.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtNombre.Name = "TxtNombre"
         Me.TxtNombre.Size = New System.Drawing.Size(273, 20)
@@ -384,4 +459,10 @@ Partial Class FrmCliente
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents ErrorIcono As ErrorProvider
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label3 As Label
 End Class
