@@ -144,12 +144,12 @@ Public Class FrmPrincipal
             MnuConsultas.Enabled = False
             TsCompras.Enabled = False
             TsVentas.Enabled = False
-        Else
-            MnuAlmacen.Enabled = False
-            MnuIngresos.Enabled = False
-            MnuVentas.Enabled = False
-            MnuAcceso.Enabled = False
-            MnuConsultas.Enabled = False
+            'Else
+            '    MnuAlmacen.Enabled = False
+            '    MnuIngresos.Enabled = False
+            '    MnuVentas.Enabled = False
+            '    MnuAcceso.Enabled = False
+            '    MnuConsultas.Enabled = False
         End If
     End Sub
 

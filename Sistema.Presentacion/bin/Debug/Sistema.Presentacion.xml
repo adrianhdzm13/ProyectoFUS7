@@ -22,6 +22,21 @@ Sistema.Presentacion
   búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
 </summary>
 </member>
+<member name="P:Sistema.Presentacion.My.Resources.Resources.a3332ecc83a344ffa67d4fd067f7bf8b_removebg_preview">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema.Presentacion.My.Resources.Resources.a3332ecc83a344ffa67d4fd067f7bf8b_removebg_preview1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Sistema.Presentacion.My.Resources.Resources.fotologin_removebg_preview">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="T:Sistema.Presentacion.DsSistema">
 <summary>
 Represents a strongly typed in-memory cache of data.

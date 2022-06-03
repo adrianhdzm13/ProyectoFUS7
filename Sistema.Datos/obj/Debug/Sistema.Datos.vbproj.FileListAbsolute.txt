@@ -26,3 +26,17 @@ C:\Users\user\Desktop\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.vbproj.CopyC
 C:\Users\user\Desktop\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.dll
 C:\Users\user\Desktop\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.xml
 C:\Users\user\Desktop\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.pdb
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Datos\bin\Debug\Sistema.Datos.dll
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Datos\bin\Debug\Sistema.Datos.pdb
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Datos\bin\Debug\Sistema.Datos.xml
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Datos\bin\Debug\Sistema.Entidades.dll
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Datos\bin\Debug\Sistema.Entidades.pdb
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Datos\bin\Debug\Sistema.Entidades.xml
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Datos\obj\Debug\Sistema.Datos.vbproj.AssemblyReference.cache
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Datos\obj\Debug\Sistema.Datos.Resources.resources
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Datos\obj\Debug\Sistema.Datos.vbproj.GenerateResource.cache
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Datos\obj\Debug\Sistema.Datos.vbproj.CoreCompileInputs.cache
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Datos\obj\Debug\Sistema.Datos.vbproj.CopyComplete
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Datos\obj\Debug\Sistema.Datos.dll
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Datos\obj\Debug\Sistema.Datos.xml
+C:\Users\aleja\OneDrive\Escritorio\ProyectoFUS7\Sistema.Datos\obj\Debug\Sistema.Datos.pdb

@@ -266,4 +266,8 @@ Public Class FrmArticulo
     Private Sub BtnReporte_Click(sender As Object, e As EventArgs) Handles BtnReporte.Click
         FrmReporteArticulos.ShowDialog()
     End Sub
+
+    Private Sub TxtValor_KeyDown(sender As Object, e As KeyEventArgs) Handles TxtValor.KeyDown
+        Me.Buscar()
+    End Sub
 End Class

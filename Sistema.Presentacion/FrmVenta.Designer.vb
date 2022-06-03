@@ -75,6 +75,13 @@ Partial Class FrmVenta
         Me.BtnCancelar = New System.Windows.Forms.Button()
         Me.BtnInsertar = New System.Windows.Forms.Button()
         Me.TabGeneral = New System.Windows.Forms.TabControl()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
         CType(Me.DgvArticulos, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorIcono, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage1.SuspendLayout()
@@ -109,33 +116,42 @@ Partial Class FrmVenta
         '
         'BtnBuscarArticulosDetalle
         '
-        Me.BtnBuscarArticulosDetalle.Location = New System.Drawing.Point(484, 17)
+        Me.BtnBuscarArticulosDetalle.BackColor = System.Drawing.Color.Lime
+        Me.BtnBuscarArticulosDetalle.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnBuscarArticulosDetalle.ForeColor = System.Drawing.Color.White
+        Me.BtnBuscarArticulosDetalle.Location = New System.Drawing.Point(483, 13)
         Me.BtnBuscarArticulosDetalle.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnBuscarArticulosDetalle.Name = "BtnBuscarArticulosDetalle"
-        Me.BtnBuscarArticulosDetalle.Size = New System.Drawing.Size(105, 19)
+        Me.BtnBuscarArticulosDetalle.Size = New System.Drawing.Size(105, 26)
         Me.BtnBuscarArticulosDetalle.TabIndex = 1
         Me.BtnBuscarArticulosDetalle.Text = "Buscar"
-        Me.BtnBuscarArticulosDetalle.UseVisualStyleBackColor = True
+        Me.BtnBuscarArticulosDetalle.UseVisualStyleBackColor = False
         '
         'BtnBuscarArticulos
         '
-        Me.BtnBuscarArticulos.Location = New System.Drawing.Point(463, 33)
+        Me.BtnBuscarArticulos.BackColor = System.Drawing.Color.Lime
+        Me.BtnBuscarArticulos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnBuscarArticulos.ForeColor = System.Drawing.Color.White
+        Me.BtnBuscarArticulos.Location = New System.Drawing.Point(484, 25)
         Me.BtnBuscarArticulos.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnBuscarArticulos.Name = "BtnBuscarArticulos"
-        Me.BtnBuscarArticulos.Size = New System.Drawing.Size(82, 19)
+        Me.BtnBuscarArticulos.Size = New System.Drawing.Size(101, 23)
         Me.BtnBuscarArticulos.TabIndex = 9
         Me.BtnBuscarArticulos.Text = "Buscar"
-        Me.BtnBuscarArticulos.UseVisualStyleBackColor = True
+        Me.BtnBuscarArticulos.UseVisualStyleBackColor = False
         '
         'BtnAnular
         '
-        Me.BtnAnular.Location = New System.Drawing.Point(406, 408)
+        Me.BtnAnular.BackColor = System.Drawing.Color.Red
+        Me.BtnAnular.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnAnular.ForeColor = System.Drawing.Color.White
+        Me.BtnAnular.Location = New System.Drawing.Point(416, 400)
         Me.BtnAnular.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnAnular.Name = "BtnAnular"
-        Me.BtnAnular.Size = New System.Drawing.Size(112, 19)
+        Me.BtnAnular.Size = New System.Drawing.Size(131, 31)
         Me.BtnAnular.TabIndex = 7
         Me.BtnAnular.Text = "Anular"
-        Me.BtnAnular.UseVisualStyleBackColor = True
+        Me.BtnAnular.UseVisualStyleBackColor = False
         '
         'ChkSeleccionar
         '
@@ -150,13 +166,16 @@ Partial Class FrmVenta
         '
         'BtnBuscar
         '
-        Me.BtnBuscar.Location = New System.Drawing.Point(567, 26)
+        Me.BtnBuscar.BackColor = System.Drawing.Color.Lime
+        Me.BtnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnBuscar.ForeColor = System.Drawing.Color.White
+        Me.BtnBuscar.Location = New System.Drawing.Point(567, 17)
         Me.BtnBuscar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnBuscar.Name = "BtnBuscar"
-        Me.BtnBuscar.Size = New System.Drawing.Size(192, 19)
+        Me.BtnBuscar.Size = New System.Drawing.Size(192, 28)
         Me.BtnBuscar.TabIndex = 3
         Me.BtnBuscar.Text = "Buscar"
-        Me.BtnBuscar.UseVisualStyleBackColor = True
+        Me.BtnBuscar.UseVisualStyleBackColor = False
         '
         'TxtValor
         '
@@ -197,13 +216,16 @@ Partial Class FrmVenta
         '
         'BtnVerComprobante
         '
-        Me.BtnVerComprobante.Location = New System.Drawing.Point(763, 26)
+        Me.BtnVerComprobante.BackColor = System.Drawing.Color.Silver
+        Me.BtnVerComprobante.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnVerComprobante.ForeColor = System.Drawing.Color.White
+        Me.BtnVerComprobante.Location = New System.Drawing.Point(784, 17)
         Me.BtnVerComprobante.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnVerComprobante.Name = "BtnVerComprobante"
-        Me.BtnVerComprobante.Size = New System.Drawing.Size(192, 19)
+        Me.BtnVerComprobante.Size = New System.Drawing.Size(192, 28)
         Me.BtnVerComprobante.TabIndex = 10
         Me.BtnVerComprobante.Text = "Comprobante"
-        Me.BtnVerComprobante.UseVisualStyleBackColor = True
+        Me.BtnVerComprobante.UseVisualStyleBackColor = False
         '
         'PanelMostrar
         '
@@ -336,6 +358,9 @@ Partial Class FrmVenta
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Label13)
+        Me.GroupBox1.Controls.Add(Me.Label12)
+        Me.GroupBox1.Controls.Add(Me.Label11)
         Me.GroupBox1.Controls.Add(Me.TxtImpuesto)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.TxtNumComprobante)
@@ -357,7 +382,7 @@ Partial Class FrmVenta
         '
         'TxtImpuesto
         '
-        Me.TxtImpuesto.Location = New System.Drawing.Point(688, 69)
+        Me.TxtImpuesto.Location = New System.Drawing.Point(662, 70)
         Me.TxtImpuesto.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtImpuesto.Name = "TxtImpuesto"
         Me.TxtImpuesto.ReadOnly = True
@@ -368,7 +393,7 @@ Partial Class FrmVenta
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(633, 72)
+        Me.Label1.Location = New System.Drawing.Point(560, 73)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(50, 13)
@@ -396,13 +421,15 @@ Partial Class FrmVenta
         '
         'BtnBuscarCliente
         '
+        Me.BtnBuscarCliente.BackColor = System.Drawing.Color.Gray
+        Me.BtnBuscarCliente.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.BtnBuscarCliente.Location = New System.Drawing.Point(509, 32)
         Me.BtnBuscarCliente.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnBuscarCliente.Name = "BtnBuscarCliente"
         Me.BtnBuscarCliente.Size = New System.Drawing.Size(65, 19)
         Me.BtnBuscarCliente.TabIndex = 18
         Me.BtnBuscarCliente.Text = "..."
-        Me.BtnBuscarCliente.UseVisualStyleBackColor = True
+        Me.BtnBuscarCliente.UseVisualStyleBackColor = False
         '
         'TxtNombreCliente
         '
@@ -433,7 +460,7 @@ Partial Class FrmVenta
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(16, 68)
+        Me.Label5.Location = New System.Drawing.Point(16, 69)
         Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(70, 13)
@@ -468,6 +495,10 @@ Partial Class FrmVenta
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.Label17)
+        Me.GroupBox2.Controls.Add(Me.Label16)
+        Me.GroupBox2.Controls.Add(Me.Label15)
+        Me.GroupBox2.Controls.Add(Me.Label14)
         Me.GroupBox2.Controls.Add(Me.PanelArticulos)
         Me.GroupBox2.Controls.Add(Me.BtnBuscarArticulos)
         Me.GroupBox2.Controls.Add(Me.TxtCodigo)
@@ -496,10 +527,10 @@ Partial Class FrmVenta
         Me.PanelArticulos.Controls.Add(Me.DgvArticulos)
         Me.PanelArticulos.Controls.Add(Me.BtnBuscarArticulosDetalle)
         Me.PanelArticulos.Controls.Add(Me.TxtBuscarArticulos)
-        Me.PanelArticulos.Location = New System.Drawing.Point(144, 75)
+        Me.PanelArticulos.Location = New System.Drawing.Point(150, 80)
         Me.PanelArticulos.Margin = New System.Windows.Forms.Padding(2)
         Me.PanelArticulos.Name = "PanelArticulos"
-        Me.PanelArticulos.Size = New System.Drawing.Size(694, 262)
+        Me.PanelArticulos.Size = New System.Drawing.Size(678, 261)
         Me.PanelArticulos.TabIndex = 10
         Me.PanelArticulos.Visible = False
         '
@@ -535,7 +566,7 @@ Partial Class FrmVenta
         '
         'TxtCodigo
         '
-        Me.TxtCodigo.Location = New System.Drawing.Point(101, 35)
+        Me.TxtCodigo.Location = New System.Drawing.Point(112, 30)
         Me.TxtCodigo.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtCodigo.Name = "TxtCodigo"
         Me.TxtCodigo.Size = New System.Drawing.Size(348, 20)
@@ -553,7 +584,7 @@ Partial Class FrmVenta
         '
         'TxtTotal
         '
-        Me.TxtTotal.Location = New System.Drawing.Point(670, 321)
+        Me.TxtTotal.Location = New System.Drawing.Point(710, 321)
         Me.TxtTotal.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtTotal.Name = "TxtTotal"
         Me.TxtTotal.ReadOnly = True
@@ -562,7 +593,7 @@ Partial Class FrmVenta
         '
         'TxtTotalImpuesto
         '
-        Me.TxtTotalImpuesto.Location = New System.Drawing.Point(670, 298)
+        Me.TxtTotalImpuesto.Location = New System.Drawing.Point(710, 297)
         Me.TxtTotalImpuesto.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtTotalImpuesto.Name = "TxtTotalImpuesto"
         Me.TxtTotalImpuesto.ReadOnly = True
@@ -571,7 +602,7 @@ Partial Class FrmVenta
         '
         'TxtSubTotal
         '
-        Me.TxtSubTotal.Location = New System.Drawing.Point(670, 272)
+        Me.TxtSubTotal.Location = New System.Drawing.Point(710, 272)
         Me.TxtSubTotal.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtSubTotal.Name = "TxtSubTotal"
         Me.TxtSubTotal.ReadOnly = True
@@ -581,7 +612,7 @@ Partial Class FrmVenta
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(590, 323)
+        Me.Label6.Location = New System.Drawing.Point(590, 324)
         Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(31, 13)
@@ -591,7 +622,7 @@ Partial Class FrmVenta
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(590, 298)
+        Me.Label4.Location = New System.Drawing.Point(588, 300)
         Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(77, 13)
@@ -632,23 +663,29 @@ Partial Class FrmVenta
         '
         'BtnCancelar
         '
-        Me.BtnCancelar.Location = New System.Drawing.Point(195, 535)
+        Me.BtnCancelar.BackColor = System.Drawing.Color.Red
+        Me.BtnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnCancelar.ForeColor = System.Drawing.Color.White
+        Me.BtnCancelar.Location = New System.Drawing.Point(191, 525)
         Me.BtnCancelar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnCancelar.Name = "BtnCancelar"
-        Me.BtnCancelar.Size = New System.Drawing.Size(128, 19)
+        Me.BtnCancelar.Size = New System.Drawing.Size(133, 29)
         Me.BtnCancelar.TabIndex = 5
         Me.BtnCancelar.Text = "Cancelar"
-        Me.BtnCancelar.UseVisualStyleBackColor = True
+        Me.BtnCancelar.UseVisualStyleBackColor = False
         '
         'BtnInsertar
         '
-        Me.BtnInsertar.Location = New System.Drawing.Point(40, 535)
+        Me.BtnInsertar.BackColor = System.Drawing.Color.Lime
+        Me.BtnInsertar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnInsertar.ForeColor = System.Drawing.Color.White
+        Me.BtnInsertar.Location = New System.Drawing.Point(40, 525)
         Me.BtnInsertar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnInsertar.Name = "BtnInsertar"
-        Me.BtnInsertar.Size = New System.Drawing.Size(132, 19)
+        Me.BtnInsertar.Size = New System.Drawing.Size(132, 29)
         Me.BtnInsertar.TabIndex = 4
         Me.BtnInsertar.Text = "Insertar"
-        Me.BtnInsertar.UseVisualStyleBackColor = True
+        Me.BtnInsertar.UseVisualStyleBackColor = False
         '
         'TabGeneral
         '
@@ -660,6 +697,62 @@ Partial Class FrmVenta
         Me.TabGeneral.SelectedIndex = 0
         Me.TabGeneral.Size = New System.Drawing.Size(1036, 594)
         Me.TabGeneral.TabIndex = 4
+        '
+        'Label11
+        '
+        Me.Label11.BackColor = System.Drawing.Color.Blue
+        Me.Label11.Location = New System.Drawing.Point(14, 47)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(84, 2)
+        Me.Label11.TabIndex = 33
+        '
+        'Label12
+        '
+        Me.Label12.BackColor = System.Drawing.Color.Blue
+        Me.Label12.Location = New System.Drawing.Point(14, 82)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(80, 2)
+        Me.Label12.TabIndex = 34
+        '
+        'Label13
+        '
+        Me.Label13.BackColor = System.Drawing.Color.Blue
+        Me.Label13.Location = New System.Drawing.Point(559, 86)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(84, 2)
+        Me.Label13.TabIndex = 35
+        '
+        'Label14
+        '
+        Me.Label14.BackColor = System.Drawing.Color.Blue
+        Me.Label14.Location = New System.Drawing.Point(19, 48)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(84, 2)
+        Me.Label14.TabIndex = 34
+        '
+        'Label15
+        '
+        Me.Label15.BackColor = System.Drawing.Color.Blue
+        Me.Label15.Location = New System.Drawing.Point(590, 288)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(84, 2)
+        Me.Label15.TabIndex = 36
+        '
+        'Label16
+        '
+        Me.Label16.BackColor = System.Drawing.Color.Blue
+        Me.Label16.Location = New System.Drawing.Point(589, 313)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(84, 2)
+        Me.Label16.TabIndex = 37
+        '
+        'Label17
+        '
+        Me.Label17.BackColor = System.Drawing.Color.Blue
+        Me.Label17.Location = New System.Drawing.Point(590, 337)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(84, 2)
+        Me.Label17.TabIndex = 38
         '
         'FrmVenta
         '
@@ -744,4 +837,11 @@ Partial Class FrmVenta
     Friend WithEvents BtnCancelar As Button
     Friend WithEvents BtnInsertar As Button
     Friend WithEvents BtnVerComprobante As Button
+    Friend WithEvents Label17 As Label
+    Friend WithEvents Label16 As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label11 As Label
 End Class

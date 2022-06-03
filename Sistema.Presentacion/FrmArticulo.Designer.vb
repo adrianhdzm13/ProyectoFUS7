@@ -43,8 +43,16 @@ Partial Class FrmArticulo
         Me.TxtNombre = New System.Windows.Forms.TextBox()
         Me.TabGeneral = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.BtnReporte = New System.Windows.Forms.Button()
         Me.DgvListado = New System.Windows.Forms.DataGridView()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.TxtPrecioVenta = New System.Windows.Forms.TextBox()
@@ -56,7 +64,6 @@ Partial Class FrmArticulo
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.ErrorIcono = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.BtnReporte = New System.Windows.Forms.Button()
         Me.TabGeneral.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         CType(Me.DgvListado, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -68,7 +75,7 @@ Partial Class FrmArticulo
         'CboCategoria
         '
         Me.CboCategoria.FormattingEnabled = True
-        Me.CboCategoria.Location = New System.Drawing.Point(135, 60)
+        Me.CboCategoria.Location = New System.Drawing.Point(197, 57)
         Me.CboCategoria.Margin = New System.Windows.Forms.Padding(2)
         Me.CboCategoria.Name = "CboCategoria"
         Me.CboCategoria.Size = New System.Drawing.Size(273, 21)
@@ -77,7 +84,7 @@ Partial Class FrmArticulo
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(41, 136)
+        Me.Label1.Location = New System.Drawing.Point(38, 132)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(57, 13)
@@ -86,13 +93,16 @@ Partial Class FrmArticulo
         '
         'BtnActivar
         '
-        Me.BtnActivar.Location = New System.Drawing.Point(276, 408)
+        Me.BtnActivar.BackColor = System.Drawing.Color.Lime
+        Me.BtnActivar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnActivar.ForeColor = System.Drawing.Color.White
+        Me.BtnActivar.Location = New System.Drawing.Point(284, 400)
         Me.BtnActivar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnActivar.Name = "BtnActivar"
-        Me.BtnActivar.Size = New System.Drawing.Size(112, 19)
+        Me.BtnActivar.Size = New System.Drawing.Size(131, 30)
         Me.BtnActivar.TabIndex = 6
         Me.BtnActivar.Text = "Activar"
-        Me.BtnActivar.UseVisualStyleBackColor = True
+        Me.BtnActivar.UseVisualStyleBackColor = False
         '
         'Seleccionar
         '
@@ -112,18 +122,21 @@ Partial Class FrmArticulo
         '
         'BtnDesactivar
         '
-        Me.BtnDesactivar.Location = New System.Drawing.Point(406, 408)
+        Me.BtnDesactivar.BackColor = System.Drawing.Color.Gray
+        Me.BtnDesactivar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnDesactivar.ForeColor = System.Drawing.Color.White
+        Me.BtnDesactivar.Location = New System.Drawing.Point(440, 400)
         Me.BtnDesactivar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnDesactivar.Name = "BtnDesactivar"
-        Me.BtnDesactivar.Size = New System.Drawing.Size(112, 19)
+        Me.BtnDesactivar.Size = New System.Drawing.Size(126, 30)
         Me.BtnDesactivar.TabIndex = 7
         Me.BtnDesactivar.Text = "Desactivar"
-        Me.BtnDesactivar.UseVisualStyleBackColor = True
+        Me.BtnDesactivar.UseVisualStyleBackColor = False
         '
         'txtImagen
         '
         Me.txtImagen.Enabled = False
-        Me.txtImagen.Location = New System.Drawing.Point(606, 65)
+        Me.txtImagen.Location = New System.Drawing.Point(622, 65)
         Me.txtImagen.Margin = New System.Windows.Forms.Padding(2)
         Me.txtImagen.Name = "txtImagen"
         Me.txtImagen.Size = New System.Drawing.Size(245, 20)
@@ -131,13 +144,16 @@ Partial Class FrmArticulo
         '
         'BtnEliminar
         '
-        Me.BtnEliminar.Location = New System.Drawing.Point(141, 408)
+        Me.BtnEliminar.BackColor = System.Drawing.Color.Red
+        Me.BtnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnEliminar.ForeColor = System.Drawing.Color.White
+        Me.BtnEliminar.Location = New System.Drawing.Point(129, 400)
         Me.BtnEliminar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnEliminar.Name = "BtnEliminar"
-        Me.BtnEliminar.Size = New System.Drawing.Size(112, 19)
+        Me.BtnEliminar.Size = New System.Drawing.Size(126, 30)
         Me.BtnEliminar.TabIndex = 5
         Me.BtnEliminar.Text = "Eliminar"
-        Me.BtnEliminar.UseVisualStyleBackColor = True
+        Me.BtnEliminar.UseVisualStyleBackColor = False
         '
         'TxtId
         '
@@ -150,13 +166,16 @@ Partial Class FrmArticulo
         '
         'BtnCancelar
         '
-        Me.BtnCancelar.Location = New System.Drawing.Point(280, 353)
+        Me.BtnCancelar.BackColor = System.Drawing.Color.Red
+        Me.BtnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnCancelar.ForeColor = System.Drawing.Color.White
+        Me.BtnCancelar.Location = New System.Drawing.Point(369, 341)
         Me.BtnCancelar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnCancelar.Name = "BtnCancelar"
-        Me.BtnCancelar.Size = New System.Drawing.Size(128, 19)
+        Me.BtnCancelar.Size = New System.Drawing.Size(149, 31)
         Me.BtnCancelar.TabIndex = 5
         Me.BtnCancelar.Text = "Cancelar"
-        Me.BtnCancelar.UseVisualStyleBackColor = True
+        Me.BtnCancelar.UseVisualStyleBackColor = False
         '
         'ChkSeleccionar
         '
@@ -171,17 +190,20 @@ Partial Class FrmArticulo
         '
         'BtnBuscar
         '
-        Me.BtnBuscar.Location = New System.Drawing.Point(567, 26)
+        Me.BtnBuscar.BackColor = System.Drawing.Color.Lime
+        Me.BtnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnBuscar.ForeColor = System.Drawing.Color.White
+        Me.BtnBuscar.Location = New System.Drawing.Point(562, 16)
         Me.BtnBuscar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnBuscar.Name = "BtnBuscar"
-        Me.BtnBuscar.Size = New System.Drawing.Size(192, 19)
+        Me.BtnBuscar.Size = New System.Drawing.Size(197, 29)
         Me.BtnBuscar.TabIndex = 3
         Me.BtnBuscar.Text = "Buscar"
-        Me.BtnBuscar.UseVisualStyleBackColor = True
+        Me.BtnBuscar.UseVisualStyleBackColor = False
         '
         'TxtValor
         '
-        Me.TxtValor.Location = New System.Drawing.Point(7, 28)
+        Me.TxtValor.Location = New System.Drawing.Point(6, 25)
         Me.TxtValor.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtValor.Name = "TxtValor"
         Me.TxtValor.Size = New System.Drawing.Size(540, 20)
@@ -199,27 +221,33 @@ Partial Class FrmArticulo
         '
         'BtnActualizar
         '
-        Me.BtnActualizar.Location = New System.Drawing.Point(135, 353)
+        Me.BtnActualizar.BackColor = System.Drawing.Color.Lime
+        Me.BtnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnActualizar.ForeColor = System.Drawing.Color.White
+        Me.BtnActualizar.Location = New System.Drawing.Point(207, 341)
         Me.BtnActualizar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnActualizar.Name = "BtnActualizar"
-        Me.BtnActualizar.Size = New System.Drawing.Size(132, 19)
+        Me.BtnActualizar.Size = New System.Drawing.Size(147, 31)
         Me.BtnActualizar.TabIndex = 7
         Me.BtnActualizar.Text = "Actualizar"
-        Me.BtnActualizar.UseVisualStyleBackColor = True
+        Me.BtnActualizar.UseVisualStyleBackColor = False
         '
         'BtnInsertar
         '
-        Me.BtnInsertar.Location = New System.Drawing.Point(135, 353)
+        Me.BtnInsertar.BackColor = System.Drawing.Color.Lime
+        Me.BtnInsertar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnInsertar.ForeColor = System.Drawing.Color.White
+        Me.BtnInsertar.Location = New System.Drawing.Point(41, 341)
         Me.BtnInsertar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnInsertar.Name = "BtnInsertar"
-        Me.BtnInsertar.Size = New System.Drawing.Size(132, 19)
+        Me.BtnInsertar.Size = New System.Drawing.Size(151, 31)
         Me.BtnInsertar.TabIndex = 4
         Me.BtnInsertar.Text = "Insertar"
-        Me.BtnInsertar.UseVisualStyleBackColor = True
+        Me.BtnInsertar.UseVisualStyleBackColor = False
         '
         'TxtDescripcion
         '
-        Me.TxtDescripcion.Location = New System.Drawing.Point(135, 258)
+        Me.TxtDescripcion.Location = New System.Drawing.Point(197, 255)
         Me.TxtDescripcion.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtDescripcion.Multiline = True
         Me.TxtDescripcion.Name = "TxtDescripcion"
@@ -228,7 +256,7 @@ Partial Class FrmArticulo
         '
         'TxtNombre
         '
-        Me.TxtNombre.Location = New System.Drawing.Point(135, 136)
+        Me.TxtNombre.Location = New System.Drawing.Point(197, 132)
         Me.TxtNombre.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtNombre.Name = "TxtNombre"
         Me.TxtNombre.Size = New System.Drawing.Size(273, 20)
@@ -265,6 +293,19 @@ Partial Class FrmArticulo
         Me.TabPage1.Text = "Listado"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
+        'BtnReporte
+        '
+        Me.BtnReporte.BackColor = System.Drawing.Color.Silver
+        Me.BtnReporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnReporte.ForeColor = System.Drawing.Color.White
+        Me.BtnReporte.Location = New System.Drawing.Point(776, 16)
+        Me.BtnReporte.Margin = New System.Windows.Forms.Padding(2)
+        Me.BtnReporte.Name = "BtnReporte"
+        Me.BtnReporte.Size = New System.Drawing.Size(192, 29)
+        Me.BtnReporte.TabIndex = 9
+        Me.BtnReporte.Text = "Reporte"
+        Me.BtnReporte.UseVisualStyleBackColor = False
+        '
         'DgvListado
         '
         Me.DgvListado.AllowUserToAddRows = False
@@ -283,6 +324,13 @@ Partial Class FrmArticulo
         '
         'TabPage2
         '
+        Me.TabPage2.Controls.Add(Me.Label14)
+        Me.TabPage2.Controls.Add(Me.Label13)
+        Me.TabPage2.Controls.Add(Me.Label12)
+        Me.TabPage2.Controls.Add(Me.Label11)
+        Me.TabPage2.Controls.Add(Me.Label10)
+        Me.TabPage2.Controls.Add(Me.Label9)
+        Me.TabPage2.Controls.Add(Me.Label8)
         Me.TabPage2.Controls.Add(Me.Label7)
         Me.TabPage2.Controls.Add(Me.Label6)
         Me.TabPage2.Controls.Add(Me.TxtPrecioVenta)
@@ -312,10 +360,66 @@ Partial Class FrmArticulo
         Me.TabPage2.Text = "Mantenimiento"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
+        'Label14
+        '
+        Me.Label14.BackColor = System.Drawing.Color.Blue
+        Me.Label14.Location = New System.Drawing.Point(549, 81)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(49, 2)
+        Me.Label14.TabIndex = 37
+        '
+        'Label13
+        '
+        Me.Label13.BackColor = System.Drawing.Color.Blue
+        Me.Label13.Location = New System.Drawing.Point(37, 271)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(155, 2)
+        Me.Label13.TabIndex = 36
+        '
+        'Label12
+        '
+        Me.Label12.BackColor = System.Drawing.Color.Blue
+        Me.Label12.Location = New System.Drawing.Point(38, 195)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(155, 2)
+        Me.Label12.TabIndex = 35
+        '
+        'Label11
+        '
+        Me.Label11.BackColor = System.Drawing.Color.Blue
+        Me.Label11.Location = New System.Drawing.Point(37, 231)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(155, 2)
+        Me.Label11.TabIndex = 34
+        '
+        'Label10
+        '
+        Me.Label10.BackColor = System.Drawing.Color.Blue
+        Me.Label10.Location = New System.Drawing.Point(38, 149)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(155, 2)
+        Me.Label10.TabIndex = 33
+        '
+        'Label9
+        '
+        Me.Label9.BackColor = System.Drawing.Color.Blue
+        Me.Label9.Location = New System.Drawing.Point(37, 107)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(155, 2)
+        Me.Label9.TabIndex = 32
+        '
+        'Label8
+        '
+        Me.Label8.BackColor = System.Drawing.Color.Blue
+        Me.Label8.Location = New System.Drawing.Point(37, 73)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(155, 2)
+        Me.Label8.TabIndex = 31
+        '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(42, 218)
+        Me.Label7.Location = New System.Drawing.Point(37, 218)
         Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(81, 13)
@@ -325,7 +429,7 @@ Partial Class FrmArticulo
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(44, 182)
+        Me.Label6.Location = New System.Drawing.Point(38, 182)
         Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(48, 13)
@@ -334,23 +438,23 @@ Partial Class FrmArticulo
         '
         'TxtPrecioVenta
         '
-        Me.TxtPrecioVenta.Location = New System.Drawing.Point(135, 218)
+        Me.TxtPrecioVenta.Location = New System.Drawing.Point(197, 215)
         Me.TxtPrecioVenta.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtPrecioVenta.Name = "TxtPrecioVenta"
-        Me.TxtPrecioVenta.Size = New System.Drawing.Size(146, 20)
+        Me.TxtPrecioVenta.Size = New System.Drawing.Size(273, 20)
         Me.TxtPrecioVenta.TabIndex = 17
         '
         'TxtStock
         '
-        Me.TxtStock.Location = New System.Drawing.Point(135, 179)
+        Me.TxtStock.Location = New System.Drawing.Point(197, 175)
         Me.TxtStock.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtStock.Name = "TxtStock"
-        Me.TxtStock.Size = New System.Drawing.Size(146, 20)
+        Me.TxtStock.Size = New System.Drawing.Size(273, 20)
         Me.TxtStock.TabIndex = 16
         '
         'TxtCodigo
         '
-        Me.TxtCodigo.Location = New System.Drawing.Point(135, 94)
+        Me.TxtCodigo.Location = New System.Drawing.Point(197, 91)
         Me.TxtCodigo.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtCodigo.Name = "TxtCodigo"
         Me.TxtCodigo.Size = New System.Drawing.Size(273, 20)
@@ -359,7 +463,7 @@ Partial Class FrmArticulo
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(40, 94)
+        Me.Label5.Location = New System.Drawing.Point(38, 94)
         Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(40, 13)
@@ -378,18 +482,21 @@ Partial Class FrmArticulo
         '
         'BtnCargarImagen
         '
-        Me.BtnCargarImagen.Location = New System.Drawing.Point(855, 63)
+        Me.BtnCargarImagen.BackColor = System.Drawing.Color.Gray
+        Me.BtnCargarImagen.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnCargarImagen.ForeColor = System.Drawing.Color.White
+        Me.BtnCargarImagen.Location = New System.Drawing.Point(881, 63)
         Me.BtnCargarImagen.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnCargarImagen.Name = "BtnCargarImagen"
         Me.BtnCargarImagen.Size = New System.Drawing.Size(59, 22)
         Me.BtnCargarImagen.TabIndex = 12
         Me.BtnCargarImagen.Text = "..."
-        Me.BtnCargarImagen.UseVisualStyleBackColor = True
+        Me.BtnCargarImagen.UseVisualStyleBackColor = False
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(476, 65)
+        Me.Label4.Location = New System.Drawing.Point(549, 68)
         Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(42, 13)
@@ -409,16 +516,6 @@ Partial Class FrmArticulo
         'ErrorIcono
         '
         Me.ErrorIcono.ContainerControl = Me
-        '
-        'BtnReporte
-        '
-        Me.BtnReporte.Location = New System.Drawing.Point(776, 26)
-        Me.BtnReporte.Margin = New System.Windows.Forms.Padding(2)
-        Me.BtnReporte.Name = "BtnReporte"
-        Me.BtnReporte.Size = New System.Drawing.Size(192, 19)
-        Me.BtnReporte.TabIndex = 9
-        Me.BtnReporte.Text = "Reporte"
-        Me.BtnReporte.UseVisualStyleBackColor = True
         '
         'FrmArticulo
         '
@@ -475,4 +572,11 @@ Partial Class FrmArticulo
     Friend WithEvents Label2 As Label
     Friend WithEvents ErrorIcono As ErrorProvider
     Friend WithEvents BtnReporte As Button
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label8 As Label
 End Class
