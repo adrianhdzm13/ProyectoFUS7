@@ -61,13 +61,16 @@ Partial Class FrmCliente_Venta
         '
         'BtnBuscar
         '
-        Me.BtnBuscar.Location = New System.Drawing.Point(567, 26)
+        Me.BtnBuscar.BackColor = System.Drawing.Color.Lime
+        Me.BtnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnBuscar.ForeColor = System.Drawing.Color.White
+        Me.BtnBuscar.Location = New System.Drawing.Point(567, 20)
         Me.BtnBuscar.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnBuscar.Name = "BtnBuscar"
-        Me.BtnBuscar.Size = New System.Drawing.Size(192, 19)
+        Me.BtnBuscar.Size = New System.Drawing.Size(192, 25)
         Me.BtnBuscar.TabIndex = 3
         Me.BtnBuscar.Text = "Buscar"
-        Me.BtnBuscar.UseVisualStyleBackColor = True
+        Me.BtnBuscar.UseVisualStyleBackColor = False
         '
         'TxtValor
         '
